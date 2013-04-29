@@ -1,0 +1,51 @@
+\documentclass[10pt,stdletter,dateno]{newlfm}
+%\usepackage{kpfonts}
+\usepackage{url}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newlfmP{headermarginskip=20pt}
+\newlfmP{sigsize=50pt}
+\newlfmP{dateskipafter=20pt}
+\newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+\PhrPhone{Phone}
+\PhrEmail{Email}
+
+\namefrom{Timothy J. Schumacher, Ph.D.}
+\addrfrom{%
+    \today\\[10pt]
+    Timothy J. Schumacher, Ph.D.\\
+    P.O. Box 7413\\
+    Boulder, CO 80306-7413
+}
+\phonefrom{720-220-8656}
+\emailfrom{schumact@gmail.com}
+\addrto{% Who we are sending to:
+    Some Awesome Job\\
+    Department of Computer Science\\
+    ACME Corporation\\
+    Boulder, CO 80302
+}
+
+\greetto{To Whom It May Concern,}
+\closeline{Sincerely,}
+
+\begin{document}
+\begin{newlfm}
+
+I am writing to apply for the software engineer position at 
+
+Enclosed is my current resume.  Also, I maintain a personal server as a hobby that has 
+other information about me at:
+
+\url{http://timmy.TransientRants.com}
+
+Please let me know if there are any other materials or information that will assist you in processing my application.
+
+Thank you for your consideration.  I look forward to hearing from you.
+
+\end{newlfm}
+\end{document}
+
