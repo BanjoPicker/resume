@@ -1,4 +1,4 @@
-
+# comment 1
 
 PDFS := coverletter.pdf \
 		cl_city_boulder.pdf \
