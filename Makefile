@@ -6,6 +6,8 @@ PDFS := coverletter.pdf \
 		cl_zurich.pdf \
 		cl_prague.pdf \
 		cl_generic.pdf \
+		resume-c++.pdf \
+		resume-java.pdf \
 		resume.pdf
 
 
