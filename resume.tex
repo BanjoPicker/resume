@@ -7,8 +7,13 @@
 
 \documentclass[letterpaper,10pt]{article}
 \usepackage{color}
+\usepackage{xcolor}
 \definecolor{darkblue}{rgb}{0, 0, .6}
 \definecolor{grey}{rgb}{.7, .7, .7}
+\definecolor{ggreen}{HTML}{009856}
+\definecolor{gyellow}{HTML}{FFC80E}
+\definecolor{gred}{HTML}{D4412B}
+\definecolor{gblue}{HTML}{2471F3}
 
 %-----------------------------------------------------------
 %Margin setup
@@ -48,6 +53,7 @@
 %-----------------------------------------------------------
 %Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\google}{\textcolor{gblue}{G}\textcolor{gred}{o}\textcolor{gyellow}{o}\textcolor{gblue}{g}\textcolor{ggreen}{l}\textcolor{gred}{e}}
 \newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
